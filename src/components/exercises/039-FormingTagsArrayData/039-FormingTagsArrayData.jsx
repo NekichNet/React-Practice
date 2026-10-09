@@ -1,5 +1,8 @@
 function FormingTagsArrayData() {
-  return <div>39. FormingTagsArrayData</div>;
+  const arr = ['a', 'b', 'c', 'd', 'e'];
+  const list = arr.map((el) => <li>{el}</li>);
+
+  return <ul>{list}</ul>;
 }
 
 export default FormingTagsArrayData;

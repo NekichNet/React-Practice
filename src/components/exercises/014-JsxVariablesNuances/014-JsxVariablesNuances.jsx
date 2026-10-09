@@ -1,5 +1,13 @@
 function JsxVariablesNuances() {
-  return <div>14. JsxVariablesNuances</div>;
+  const name = 'user';
+  const age = '30';
+
+  return (
+    <div>
+      name: {name}
+      age: {age}
+    </div>
+  );
 }
 
 export default JsxVariablesNuances;

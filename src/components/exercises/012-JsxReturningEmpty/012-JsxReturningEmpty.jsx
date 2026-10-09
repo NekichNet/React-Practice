@@ -1,5 +1,11 @@
 function JsxReturningEmpty() {
-  return <div>12. JsxReturningEmpty</div>;
+  return (
+    <>
+      <input />
+      <input />
+      <input />
+    </>
+  );
 }
 
 export default JsxReturningEmpty;

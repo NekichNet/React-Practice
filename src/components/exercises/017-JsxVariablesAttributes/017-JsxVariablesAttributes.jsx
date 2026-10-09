@@ -1,5 +1,7 @@
 function JsxVariablesAttributes() {
-  return <div>17. JsxVariablesAttributes</div>;
+  const attr = 'block';
+
+  return <div id={attr}>text</div>;
 }
 
 export default JsxVariablesAttributes;

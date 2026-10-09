@@ -1,5 +1,5 @@
 function JsxReturningUnclosed() {
-  return <div>11. JsxReturningUnclosed</div>;
+  return <input />;
 }
 
 export default JsxReturningUnclosed;
